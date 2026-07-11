@@ -4,11 +4,15 @@
 ![Platform](https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge)
 ![Framework](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Free%20for%20Personal%20Use-green?style=for-the-badge)
+
 ![App Preview](p1.jpg)
+
 > **Premium YouTube Experience Without Ads** – Smooth, battery-efficient, and immortal background playback on Android.
 
 ---
-### 🎥 **Demo on YouTube**
+
+### 🎥 Demo on YouTube
+
 [![Watch Demo](https://img.shields.io/badge/Watch_Demo_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/shorts/Qnc-bOVZrQM?feature=share)
 
 ---
@@ -45,6 +49,7 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 - **Anti-Detection Patches** – Simulates continuous visibility state
 
 ---
+
 ## 🔧 CONFIGURATION & ADVANCED FEATURES
 
 | Feature                    | Status          | Description                          |
@@ -55,19 +60,22 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 | Screen Rotation Support    | Fully Working   | Immersive mode                       |
 | Auto Skip Ads              | Fully Working   | Smart skip + time jump               |
 | Anti-Popup System          | Fully Working   | Auto-dismisses warnings              |
-## 📥 INSTALLATION GUIDE
 
 ---
+
+## 📥 INSTALLATION GUIDE
+
 ### Method 1: Download APK (Recommended)
 1. Go to the **Releases** tab of this repository
 2. Download the latest `app-YT-Premium-Ultra.apk` file
-3. Install on your Android device (enable "Unknown Sources" if prompted)
+3. Install on your Android device (enable **Unknown Sources** / **Install from unknown apps** if prompted)
 
 ---
 
-## 🔧 CONTACT & SUPPORT
-- **Author:** Thái Thông
-- **Email:** [ThaiThongsj@gmail.com](mailto:ThaiThongsj@gmail.com)
+## 📬 CONTACT & SUPPORT
+
+- **Author**: Thái Thông
+- **Email**: [ThaiThongSj@gmail.com](mailto:ThaiThongSj@gmail.com)
 
 ### 💰 Support the Project
 
