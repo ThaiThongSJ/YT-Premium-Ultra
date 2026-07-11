@@ -55,3 +55,25 @@ git clone https://github.com/ten-ban/YT-Premium-Ultra.git
 cd YT-Premium-Ultra
 flutter pub get
 flutter build apk --release
+---
+
+## 📬 CONTACT & SUPPORT
+
+- **Author**: Thái Thông  
+- **Email**: [ThaiThongSj@gmail.com](mailto:ThaiThongSj@gmail.com)
+
+### 💰 Support the Project
+
+**Bank**: Vietcombank  
+**Account Number**: `9898661918`  
+**Account Holder**: NGUYỄN NGỌC THÁI THÔNG
+
+---
+
+**Thank you for using YT Premium Ultra!**  
+Enjoy a clean, smooth, and ad-free YouTube experience.
+
+---
+
+**Made with ❤️ for a better viewing experience**
+
