@@ -8,6 +8,11 @@
 > **Premium YouTube Experience Without Ads** – Smooth, battery-efficient, and immortal background playback on Android.
 
 ---
+---
+### 🎥 **Demo on YouTube**
+[![Watch Demo](https://img.shields.io/badge/Watch_Demo_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/shorts/Qnc-bOVZrQM?feature=share)
+
+---
 
 ### 🎥 Introduction
 
