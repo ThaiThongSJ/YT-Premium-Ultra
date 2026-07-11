@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge)
 ![Framework](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Free%20for%20Personal%20Use-green?style=for-the-badge)
-
+![App Preview](p1.jpg)
 > **Premium YouTube Experience Without Ads** – Smooth, battery-efficient, and immortal background playback on Android.
 
 ---
