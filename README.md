@@ -51,16 +51,15 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 
 ---
 
-## 📬 CONTACT & SUPPORT
-
-- **Author**: Thái Thông  
-- **Email**: [ThaiThongSj@gmail.com](mailto:ThaiThongSj@gmail.com)
+## 🔧 CONTACT & SUPPORT
+- **Author:** Thái Thông
+- **Email:** [ThaiThongsj@gmail.com](mailto:ThaiThongsj@gmail.com)
 
 ### 💰 Support the Project
 
-**Bank**: Vietcombank  
-**Account Number**: `9898661918`  
-**Account Holder**: NGUYỄN NGỌC THÁI THÔNG
+![Bank Support](bank.png)
+
+**Vietcombank Account** `9898661918` — **NGUYỄN NGỌC THÁI THÔNG**
 
 ---
 
