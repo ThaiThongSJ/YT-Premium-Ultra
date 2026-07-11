@@ -49,12 +49,6 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 2. Download the latest `app-YT-Premium-Ultra.apk` file
 3. Install on your Android device (enable "Unknown Sources" if prompted)
 
-### Method 2: Build from Source
----
-git clone https://github.com/ten-ban/YT-Premium-Ultra.git
-cd YT-Premium-Ultra
-flutter pub get
-flutter build apk --release
 ---
 
 ## 📬 CONTACT & SUPPORT
@@ -76,4 +70,3 @@ Enjoy a clean, smooth, and ad-free YouTube experience.
 ---
 
 **Made with ❤️ for a better viewing experience**
-
