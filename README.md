@@ -60,14 +60,20 @@ flutter build apk --release
 
 ## 📬 CONTACT & SUPPORT
 
-Author: Thái Thông
-Email: ThaiThongSj@gmail.com
+- **Author**: Thái Thông  
+- **Email**: [ThaiThongSj@gmail.com](mailto:ThaiThongSj@gmail.com)
 
-💰 Support the Project
-Vietcombank: 9898661918
-Account Holder: NGUYỄN NGỌC THÁI THÔNG
+### 💰 Support the Project
 
-Thank you for using YT Premium Ultra!
+**Bank**: Vietcombank  
+**Account Number**: `9898661918`  
+**Account Holder**: NGUYỄN NGỌC THÁI THÔNG
+
+---
+
+**Thank you for using YT Premium Ultra!**  
 Enjoy a clean, smooth, and ad-free YouTube experience.
 
-Made with ❤️ for a better viewing experience
+---
+
+**Made with ❤️ for a better viewing experience**
