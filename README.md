@@ -50,6 +50,18 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 
 ---
 
+## 📥 INSTALLATION GUIDE
+
+### Method 1: Download APK (Recommended)
+
+[![Download APK](https://img.shields.io/badge/Download_APK-v2.5.0-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/v2.5.0-ultra/YT-Premium-Ultra-v2.5.0.apk)
+
+1. Nhấn nút **Download APK** bên trên
+2. Cài đặt file `YT-Premium-Ultra-v2.5.0.apk`
+3. Bật **Unknown Sources** / **Install from unknown apps** nếu được hỏi
+
+---
+
 ## 🔧 CONFIGURATION & ADVANCED FEATURES
 
 | Feature                    | Status          | Description                          |
@@ -60,15 +72,6 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 | Screen Rotation Support    | Fully Working   | Immersive mode                       |
 | Auto Skip Ads              | Fully Working   | Smart skip + time jump               |
 | Anti-Popup System          | Fully Working   | Auto-dismisses warnings              |
-
----
-
-## 📥 INSTALLATION GUIDE
-
-### Method 1: Download APK (Recommended)
-1. Go to the **Releases** tab of this repository
-2. Download the latest `app-YT-Premium-Ultra.apk` file
-3. Install on your Android device (enable **Unknown Sources** / **Install from unknown apps** if prompted)
 
 ---
 
