@@ -58,7 +58,7 @@ flutter build apk --release
 
 ---
 
-📬 CONTACT & SUPPORT
+## 📬 CONTACT & SUPPORT
 
 Author: Thái Thông
 Email: ThaiThongSj@gmail.com
