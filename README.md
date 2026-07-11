@@ -50,7 +50,7 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 3. Install on your Android device (enable "Unknown Sources" if prompted)
 
 ### Method 2: Build from Source
-```bash
+---
 git clone https://github.com/ten-ban/YT-Premium-Ultra.git
 cd YT-Premium-Ultra
 flutter pub get
