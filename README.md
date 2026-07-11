@@ -45,9 +45,19 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 - **Anti-Detection Patches** – Simulates continuous visibility state
 
 ---
+## 🔧 CONFIGURATION & ADVANCED FEATURES
 
+| Feature                    | Status          | Description                          |
+|---------------------------|-----------------|--------------------------------------|
+| Ad Blocking                | Fully Working   | Blocks all ad formats                |
+| Background Music Playback  | Fully Working   | Immortal background play             |
+| Battery Optimization       | Optimized       | Minimal resource usage               |
+| Screen Rotation Support    | Fully Working   | Immersive mode                       |
+| Auto Skip Ads              | Fully Working   | Smart skip + time jump               |
+| Anti-Popup System          | Fully Working   | Auto-dismisses warnings              |
 ## 📥 INSTALLATION GUIDE
 
+---
 ### Method 1: Download APK (Recommended)
 1. Go to the **Releases** tab of this repository
 2. Download the latest `app-YT-Premium-Ultra.apk` file
