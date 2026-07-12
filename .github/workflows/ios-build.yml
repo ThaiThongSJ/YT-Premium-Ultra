@@ -1,0 +1,46 @@
+name: Build Unsigned iOS IPA
+
+on:
+  push:
+    branches:
+      - main # Nếu nhánh chính trên web của bác tên là master thì sửa chữ main này thành master nhé
+  workflow_dispatch: # Cho phép bấm nút build thủ công bằng tay trên web
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java (Required for Flutter)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Build iOS Frameworks (No Code Sign)
+        run: |
+          flutter build ios --release --no-codesign --obfuscate --split-debug-info=build/app/outputs/symbols
+
+      - name: Package App into Unsigned IPA
+        run: |
+          mkdir -p Payload
+          mv build/ios/iphoneos/Runner.app Payload/
+          zip -r SmoothPlayer_Unsigned.ipa Payload
+
+          # Tải file IPA lên mục lưu trữ của GitHub
+      - name: Upload IPA to GitHub Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmoothPlayer-iOS-IPA
+          path: SmoothPlayer_Unsigned.ipa
