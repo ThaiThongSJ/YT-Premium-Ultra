@@ -4,11 +4,15 @@ on:
   push:
     branches:
       - main
+      - master
   workflow_dispatch:
 
 jobs:
   build-ios:
     runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: ./
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,23 +29,19 @@ jobs:
           channel: 'stable'
           cache: true
 
-      # CHỈ CHỈNH SỬA DUY NHẤT KHU VỰC NÀY: Thêm dòng "working-directory" để robot tự chui vào thư mục con
       - name: Install Dependencies
-        working-directory: smoothplayer_app
         run: flutter pub get
 
       - name: Build iOS Frameworks (No Code Sign)
-        working-directory: smoothplayer_app
         run: |
           flutter build ios --release --no-codesign --obfuscate --split-debug-info=build/app/outputs/symbols
 
       - name: Package App into Unsigned IPA
         run: |
           mkdir -p Payload
-          mv smoothplayer_app/build/ios/iphoneos/Runner.app Payload/
+          cp -r build/ios/iphoneos/Runner.app Payload/
           zip -r SmoothPlayer_Unsigned.ipa Payload
 
-      # Đoạn này giữ nguyên để đẩy file lên cho bác tải
       - name: Upload IPA to GitHub Artifacts
         uses: actions/upload-artifact@v4
         with:
