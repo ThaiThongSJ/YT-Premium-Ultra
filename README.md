@@ -54,7 +54,7 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 
 ### Method 1: Download APK (Recommended)
 
-[![Download APK](https://img.shields.io/badge/Download_APK-v2.5.0-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/v2.5.0-ultra/YT-Premium-Ultra-v2.5.0.apk)
+[![Download APK](https://img.shields.io/badge/Download_APK-v2.6.0-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/v2.6.0-ultra/YT-Premium-Ultra-v2.6.0.apk)
 
 1. Nhấn nút **Download APK** bên trên
 2. Cài đặt file `YT-Premium-Ultra-v2.5.0.apk`
