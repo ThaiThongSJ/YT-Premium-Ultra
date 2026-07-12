@@ -1,0 +1,36 @@
+name: smoothplayer
+description: "YT Premium Ultra Powered by Thai Thong"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  # Sửa lại mốc Dart SDK chuẩn (Flutter 3.22.0 dùng Dart 3.4.0). 
+  # Máy bạn đang có Dart 3.12.2 sẽ khớp hoàn toàn (vì 12 > 4).
+  sdk: '>=3.4.0 <4.0.0'
+  
+  # Ép cấu hình yêu cầu phiên bản Flutter từ 3.22.0 trở lên ở đây mới đúng chuẩn
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.13.0     # Khóa phiên bản trùng nhau rất tốt
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Cấu hình icon ứng dụng
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.png
