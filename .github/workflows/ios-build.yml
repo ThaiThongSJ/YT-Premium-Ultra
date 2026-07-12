@@ -3,8 +3,8 @@ name: Build Unsigned iOS IPA
 on:
   push:
     branches:
-      - main # Nếu nhánh chính trên web của bác tên là master thì sửa chữ main này thành master nhé
-  workflow_dispatch: # Cho phép bấm nút build thủ công bằng tay trên web
+      - main
+  workflow_dispatch:
 
 jobs:
   build-ios:
@@ -25,20 +25,23 @@ jobs:
           channel: 'stable'
           cache: true
 
+      # CHỈ CHỈNH SỬA DUY NHẤT KHU VỰC NÀY: Thêm dòng "working-directory" để robot tự chui vào thư mục con
       - name: Install Dependencies
+        working-directory: smoothplayer_app
         run: flutter pub get
 
       - name: Build iOS Frameworks (No Code Sign)
+        working-directory: smoothplayer_app
         run: |
           flutter build ios --release --no-codesign --obfuscate --split-debug-info=build/app/outputs/symbols
 
       - name: Package App into Unsigned IPA
         run: |
           mkdir -p Payload
-          mv build/ios/iphoneos/Runner.app Payload/
+          mv smoothplayer_app/build/ios/iphoneos/Runner.app Payload/
           zip -r SmoothPlayer_Unsigned.ipa Payload
 
-          # Tải file IPA lên mục lưu trữ của GitHub
+      # Đoạn này giữ nguyên để đẩy file lên cho bác tải
       - name: Upload IPA to GitHub Artifacts
         uses: actions/upload-artifact@v4
         with:
