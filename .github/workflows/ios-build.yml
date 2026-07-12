@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Java (Required for Flutter)
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
@@ -32,13 +32,18 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
-      # BƯỚC THẦN THÁNH: Tự động cấu hình file Xcode gốc để bỏ qua Development Team
-      - name: Bypass Apple Development Team Check
+      # CẤU HÌNH BỎ QUA CODE SIGNING CỰC GẮT
+      - name: Force Disable Code Signing in Xcode
         run: |
+          # 1. Chuyển chế độ ký từ Automatic sang Manual trong file dự án
+          sed -i '' 's/CODE_SIGN_STYLE = Automatic;/CODE_SIGN_STYLE = Manual;/g' ios/Runner.xcodeproj/project.pbxproj
+          # 2. Xóa các Identity cũ đi
+          sed -i '' 's/CODE_SIGN_IDENTITY = "iPhone Developer";/CODE_SIGN_IDENTITY = "";/g' ios/Runner.xcodeproj/project.pbxproj
+          # 3. Ghi đè cấu hình vào file Release.xcconfig
           echo "CODE_SIGNING_ALLOWED=NO" >> ios/Flutter/Release.xcconfig
           echo "CODE_SIGNING_REQUIRED=NO" >> ios/Flutter/Release.xcconfig
           echo "CODE_SIGN_IDENTITY=" >> ios/Flutter/Release.xcconfig
-          sed -i '' 's/DEVELOPMENT_TEAM = "";//g' ios/Runner.xcodeproj/project.pbxproj
+          echo "PROVISIONING_PROFILE_SPECIFIER=" >> ios/Flutter/Release.xcconfig
 
       - name: Build iOS Frameworks (No Code Sign)
         run: |
