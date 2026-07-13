@@ -1,6 +1,6 @@
 # 🛡️ YT Premium Ultra - YouTube Ad Blocker for Android
 
-![Version](https://img.shields.io/badge/Version-2.5.0--ULTRA-red?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-3.3.9--ULTRA-red?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge)
 ![Framework](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Free%20for%20Personal%20Use-green?style=for-the-badge)
@@ -54,10 +54,10 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 
 ### Method 1: Download APK (Recommended)
 
-[![Download APK](https://img.shields.io/badge/Download_APK-v3.3.5-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/v3.3.5/YT.Premium.Ultra.V3.3.5.apk)
+[![Download APK](https://img.shields.io/badge/Download_APK-v3.3.9-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/v3.3.9/YT.Premium.Ultra.V3.3.9-UltraEngine.apk)
 
 1. Tap the **Download APK** button above
-2. Install the file `YT-Premium-Ultra-v3.3.5.apk`
+2. Install the file `YT-Premium-Ultra-V3.3.9-UltraEngine.apk`
 3. Enable **Unknown Sources** / **Install from unknown apps** if prompted
 
 ---
