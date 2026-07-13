@@ -57,7 +57,7 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 [![Download APK](https://img.shields.io/badge/Download_APK-v3.3.5-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/v3.3.5/YT.Premium.Ultra.V3.3.5.apk)
 
 1. Tap the **Download APK** button above
-2. Install the file `YT-Premium-Ultra-v2.6.0.apk`
+2. Install the file `YT-Premium-Ultra-v3.3.5.apk`
 3. Enable **Unknown Sources** / **Install from unknown apps** if prompted
 
 ---
