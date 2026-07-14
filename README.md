@@ -54,10 +54,10 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 
 ### Method 1: Download APK (Recommended)
 
-[![Download APK](https://img.shields.io/badge/Download_APK-v3.5.0-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.5.0/YT.Premium.Ultra.v3.5.0-Ultimate-Engine.apk)
+[![Download APK](https://img.shields.io/badge/Download_APK-v3.6.7-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.7/YT.Premium.Ultra.v3.6.7.apk)
 
 1. Tap the **Download APK** button above
-2. Install the file `YT-Premium-Ultra-V3.5.0-UltraEngine.apk`
+2. Install the file `YT-Premium-Ultra-V3.6.7.apk`
 3. Enable **Unknown Sources** / **Install from unknown apps** if prompted
 
 ---
