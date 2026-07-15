@@ -10,6 +10,7 @@
 > **Premium YouTube Experience Without Ads** – Smooth, battery-efficient, and immortal background playback on Android.
 
 ---
+[![Download APK for Tivi](https://img.shields.io/badge/Download_APK_for_TIVI-v3.6.7-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.7/YT.Premium.Ultra.For.TIVI.v3.6.7.apk)
 
 ### 🎥 Demo on YouTube
 
@@ -55,8 +56,6 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 ### Method 1: Download APK (Recommended)
 
 [![Download APK](https://img.shields.io/badge/Download_APK-v3.6.7-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.7/YT.Premium.Ultra.v3.6.7.apk)
-
-[![Download APK for Tivi](https://img.shields.io/badge/Download_APK_for_TIVI-v3.6.7-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.7/YT.Premium.Ultra.For.TIVI.v3.6.7.apk)
 
 1. Tap the **Download APK** button above
 2. Install the file `YT-Premium-Ultra-V3.6.7.apk`
