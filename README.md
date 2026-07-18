@@ -56,7 +56,7 @@ Using an advanced **JavaScript Shield Engine**, the app effectively blocks all t
 
 [![Download APK for MOBILE](https://img.shields.io/badge/Download_APK_for_MOBILE-v3.6.8-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.8/YT.Premium.Ultra.v3.6.8.apk)
 
-[![Download APK for MOBILE](https://img.shields.io/badge/Download_APK_for_MOBILE-v3.6.9-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.9/YT.Premium.Ultra.v3.6.9.apk)
+[![Download APK for MOBILE](https://img.shields.io/badge/Download_APK_for_MOBILE-v3.6.9-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.8/YT.Premium.Ultra.v3.6.9.apk)
 
 [![Download APK for Tivi](https://img.shields.io/badge/Download_APK_for_TIVI-v3.6.8-red?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ThaiThongSJ/YT-Premium-Ultra/releases/download/Version-3.6.8/YT.Premium.Ultra.For.TIVI.v3.6.8.apk)
 
